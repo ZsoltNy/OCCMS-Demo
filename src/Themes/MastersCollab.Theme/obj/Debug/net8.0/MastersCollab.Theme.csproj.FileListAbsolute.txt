@@ -1,0 +1,40 @@
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\Themes\MastersCollab.Theme\bin\Debug\net8.0\MastersCollab.Theme.deps.json
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\Themes\MastersCollab.Theme\bin\Debug\net8.0\MastersCollab.Theme.dll
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\Themes\MastersCollab.Theme\bin\Debug\net8.0\MastersCollab.Theme.pdb
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\Themes\MastersCollab.Theme\obj\Debug\net8.0\MastersCollab.Theme.csproj.AssemblyReference.cache
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\Themes\MastersCollab.Theme\obj\Debug\net8.0\MastersCollab.Theme.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\Themes\MastersCollab.Theme\obj\Debug\net8.0\MastersCollab.Theme.AssemblyInfoInputs.cache
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\Themes\MastersCollab.Theme\obj\Debug\net8.0\MastersCollab.Theme.AssemblyInfo.cs
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\Themes\MastersCollab.Theme\obj\Debug\net8.0\MastersCollab.Theme.csproj.CoreCompileInputs.cache
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\Themes\MastersCollab.Theme\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\Themes\MastersCollab.Theme\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\Themes\MastersCollab.Theme\obj\Debug\net8.0\staticwebassets\msbuild.MastersCollab.Theme.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\Themes\MastersCollab.Theme\obj\Debug\net8.0\staticwebassets\msbuild.build.MastersCollab.Theme.props
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\Themes\MastersCollab.Theme\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MastersCollab.Theme.props
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\Themes\MastersCollab.Theme\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MastersCollab.Theme.props
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\Themes\MastersCollab.Theme\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\Themes\MastersCollab.Theme\obj\Debug\net8.0\scopedcss\bundle\MastersCollab.Theme.styles.css
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\Themes\MastersCollab.Theme\obj\Debug\net8.0\MastersCollab.Theme.dll
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\Themes\MastersCollab.Theme\obj\Debug\net8.0\refint\MastersCollab.Theme.dll
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\Themes\MastersCollab.Theme\obj\Debug\net8.0\MastersCollab.Theme.pdb
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\Themes\MastersCollab.Theme\obj\Debug\net8.0\ref\MastersCollab.Theme.dll
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\Themes\MastersCollab.Theme\bin\Debug\net8.0\MastersCollab.Theme.deps.json
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\Themes\MastersCollab.Theme\bin\Debug\net8.0\MastersCollab.Theme.dll
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\Themes\MastersCollab.Theme\bin\Debug\net8.0\MastersCollab.Theme.pdb
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\Themes\MastersCollab.Theme\obj\Debug\net8.0\MastersCollab.Theme.csproj.AssemblyReference.cache
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\Themes\MastersCollab.Theme\obj\Debug\net8.0\MastersCollab.Theme.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\Themes\MastersCollab.Theme\obj\Debug\net8.0\MastersCollab.Theme.AssemblyInfoInputs.cache
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\Themes\MastersCollab.Theme\obj\Debug\net8.0\MastersCollab.Theme.AssemblyInfo.cs
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\Themes\MastersCollab.Theme\obj\Debug\net8.0\MastersCollab.Theme.csproj.CoreCompileInputs.cache
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\Themes\MastersCollab.Theme\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\Themes\MastersCollab.Theme\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\Themes\MastersCollab.Theme\obj\Debug\net8.0\staticwebassets\msbuild.MastersCollab.Theme.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\Themes\MastersCollab.Theme\obj\Debug\net8.0\staticwebassets\msbuild.build.MastersCollab.Theme.props
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\Themes\MastersCollab.Theme\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MastersCollab.Theme.props
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\Themes\MastersCollab.Theme\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MastersCollab.Theme.props
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\Themes\MastersCollab.Theme\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\Themes\MastersCollab.Theme\obj\Debug\net8.0\scopedcss\bundle\MastersCollab.Theme.styles.css
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\Themes\MastersCollab.Theme\obj\Debug\net8.0\MastersCollab.Theme.dll
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\Themes\MastersCollab.Theme\obj\Debug\net8.0\refint\MastersCollab.Theme.dll
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\Themes\MastersCollab.Theme\obj\Debug\net8.0\MastersCollab.Theme.pdb
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\Themes\MastersCollab.Theme\obj\Debug\net8.0\ref\MastersCollab.Theme.dll

@@ -1,0 +1,44 @@
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\Modules\MastersCollab.Core\bin\Debug\net8.0\MastersCollab.Core.deps.json
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\Modules\MastersCollab.Core\bin\Debug\net8.0\MastersCollab.Core.dll
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\Modules\MastersCollab.Core\bin\Debug\net8.0\MastersCollab.Core.pdb
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\Modules\MastersCollab.Core\obj\Debug\net8.0\MastersCollab.Core.csproj.AssemblyReference.cache
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\Modules\MastersCollab.Core\obj\Debug\net8.0\MastersCollab.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\Modules\MastersCollab.Core\obj\Debug\net8.0\MastersCollab.Core.AssemblyInfoInputs.cache
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\Modules\MastersCollab.Core\obj\Debug\net8.0\MastersCollab.Core.AssemblyInfo.cs
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\Modules\MastersCollab.Core\obj\Debug\net8.0\MastersCollab.Core.csproj.CoreCompileInputs.cache
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\Modules\MastersCollab.Core\obj\Debug\net8.0\MastersCollab.Core.RazorAssemblyInfo.cache
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\Modules\MastersCollab.Core\obj\Debug\net8.0\MastersCollab.Core.RazorAssemblyInfo.cs
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\Modules\MastersCollab.Core\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\Modules\MastersCollab.Core\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\Modules\MastersCollab.Core\obj\Debug\net8.0\staticwebassets\msbuild.MastersCollab.Core.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\Modules\MastersCollab.Core\obj\Debug\net8.0\staticwebassets\msbuild.build.MastersCollab.Core.props
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\Modules\MastersCollab.Core\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MastersCollab.Core.props
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\Modules\MastersCollab.Core\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MastersCollab.Core.props
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\Modules\MastersCollab.Core\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\Modules\MastersCollab.Core\obj\Debug\net8.0\scopedcss\bundle\MastersCollab.Core.styles.css
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\Modules\MastersCollab.Core\obj\Debug\net8.0\MastersCollab.Core.dll
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\Modules\MastersCollab.Core\obj\Debug\net8.0\refint\MastersCollab.Core.dll
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\Modules\MastersCollab.Core\obj\Debug\net8.0\MastersCollab.Core.pdb
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\Modules\MastersCollab.Core\obj\Debug\net8.0\ref\MastersCollab.Core.dll
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\Modules\MastersCollab.Core\bin\Debug\net8.0\MastersCollab.Core.deps.json
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\Modules\MastersCollab.Core\bin\Debug\net8.0\MastersCollab.Core.dll
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\Modules\MastersCollab.Core\bin\Debug\net8.0\MastersCollab.Core.pdb
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\Modules\MastersCollab.Core\obj\Debug\net8.0\MastersCollab.Core.csproj.AssemblyReference.cache
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\Modules\MastersCollab.Core\obj\Debug\net8.0\MastersCollab.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\Modules\MastersCollab.Core\obj\Debug\net8.0\MastersCollab.Core.AssemblyInfoInputs.cache
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\Modules\MastersCollab.Core\obj\Debug\net8.0\MastersCollab.Core.AssemblyInfo.cs
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\Modules\MastersCollab.Core\obj\Debug\net8.0\MastersCollab.Core.csproj.CoreCompileInputs.cache
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\Modules\MastersCollab.Core\obj\Debug\net8.0\MastersCollab.Core.RazorAssemblyInfo.cache
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\Modules\MastersCollab.Core\obj\Debug\net8.0\MastersCollab.Core.RazorAssemblyInfo.cs
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\Modules\MastersCollab.Core\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\Modules\MastersCollab.Core\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\Modules\MastersCollab.Core\obj\Debug\net8.0\staticwebassets\msbuild.MastersCollab.Core.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\Modules\MastersCollab.Core\obj\Debug\net8.0\staticwebassets\msbuild.build.MastersCollab.Core.props
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\Modules\MastersCollab.Core\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MastersCollab.Core.props
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\Modules\MastersCollab.Core\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MastersCollab.Core.props
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\Modules\MastersCollab.Core\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\Modules\MastersCollab.Core\obj\Debug\net8.0\scopedcss\bundle\MastersCollab.Core.styles.css
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\Modules\MastersCollab.Core\obj\Debug\net8.0\MastersCollab.Core.dll
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\Modules\MastersCollab.Core\obj\Debug\net8.0\refint\MastersCollab.Core.dll
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\Modules\MastersCollab.Core\obj\Debug\net8.0\MastersCollab.Core.pdb
+C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\Modules\MastersCollab.Core\obj\Debug\net8.0\ref\MastersCollab.Core.dll

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\zsolt\\Documents\\OCCMS\\Solutions\\Demo 2.0\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{536CF53C-74D9-410C-AECC-35719EDE4E93}|src\\Themes\\MastersCollab.Theme\\MastersCollab.Theme.csproj|c:\\users\\zsolt\\documents\\occms\\solutions\\demo 2.0\\src\\themes\\masterscollab.theme\\views\\layout.liquid||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{536CF53C-74D9-410C-AECC-35719EDE4E93}|src\\Themes\\MastersCollab.Theme\\MastersCollab.Theme.csproj|solutionrelative:src\\themes\\masterscollab.theme\\views\\layout.liquid||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Layout.liquid",
+              "DocumentMoniker": "C:\\Users\\zsolt\\Documents\\OCCMS\\Solutions\\Demo 2.0\\src\\Themes\\MastersCollab.Theme\\Views\\Layout.liquid",
+              "RelativeDocumentMoniker": "src\\Themes\\MastersCollab.Theme\\Views\\Layout.liquid",
+              "ToolTip": "C:\\Users\\zsolt\\Documents\\OCCMS\\Solutions\\Demo 2.0\\src\\Themes\\MastersCollab.Theme\\Views\\Layout.liquid",
+              "RelativeToolTip": "src\\Themes\\MastersCollab.Theme\\Views\\Layout.liquid",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-12T15:22:05.088Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

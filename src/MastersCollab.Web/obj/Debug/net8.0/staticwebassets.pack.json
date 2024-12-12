@@ -1,0 +1,121 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\zsolt\\Documents\\OCCMS\\Solutions\\Demo 2.0\\src\\MastersCollab.Web\\wwwroot\\.placeholder",
+      "PackagePath": "staticwebassets\\.placeholder"
+    },
+    {
+      "Id": "C:\\Users\\zsolt\\Documents\\OCCMS\\Solutions\\Demo 2.0\\src\\MastersCollab.Web\\wwwroot\\Default\\is-cache\\0\\1\\7\\b\\b\\c\\f\\d\\4\\8\\8\\7\\017bbcfd4887.jpg",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\0\\1\\7\\b\\b\\c\\f\\d\\4\\8\\8\\7\\017bbcfd4887.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zsolt\\Documents\\OCCMS\\Solutions\\Demo 2.0\\src\\MastersCollab.Web\\wwwroot\\Default\\is-cache\\0\\1\\7\\b\\b\\c\\f\\d\\4\\8\\8\\7\\017bbcfd4887.meta",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\0\\1\\7\\b\\b\\c\\f\\d\\4\\8\\8\\7\\017bbcfd4887.meta"
+    },
+    {
+      "Id": "C:\\Users\\zsolt\\Documents\\OCCMS\\Solutions\\Demo 2.0\\src\\MastersCollab.Web\\wwwroot\\Default\\is-cache\\1\\5\\0\\0\\2\\2\\e\\e\\5\\a\\8\\8\\150022ee5a88.jpg",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\1\\5\\0\\0\\2\\2\\e\\e\\5\\a\\8\\8\\150022ee5a88.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zsolt\\Documents\\OCCMS\\Solutions\\Demo 2.0\\src\\MastersCollab.Web\\wwwroot\\Default\\is-cache\\1\\5\\0\\0\\2\\2\\e\\e\\5\\a\\8\\8\\150022ee5a88.meta",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\1\\5\\0\\0\\2\\2\\e\\e\\5\\a\\8\\8\\150022ee5a88.meta"
+    },
+    {
+      "Id": "C:\\Users\\zsolt\\Documents\\OCCMS\\Solutions\\Demo 2.0\\src\\MastersCollab.Web\\wwwroot\\Default\\is-cache\\2\\1\\d\\2\\9\\0\\6\\7\\4\\6\\0\\9\\21d290674609.meta",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\2\\1\\d\\2\\9\\0\\6\\7\\4\\6\\0\\9\\21d290674609.meta"
+    },
+    {
+      "Id": "C:\\Users\\zsolt\\Documents\\OCCMS\\Solutions\\Demo 2.0\\src\\MastersCollab.Web\\wwwroot\\Default\\is-cache\\2\\1\\d\\2\\9\\0\\6\\7\\4\\6\\0\\9\\21d290674609.webp",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\2\\1\\d\\2\\9\\0\\6\\7\\4\\6\\0\\9\\21d290674609.webp"
+    },
+    {
+      "Id": "C:\\Users\\zsolt\\Documents\\OCCMS\\Solutions\\Demo 2.0\\src\\MastersCollab.Web\\wwwroot\\Default\\is-cache\\3\\e\\5\\e\\1\\4\\7\\8\\c\\1\\6\\9\\3e5e1478c169.jpg",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\3\\e\\5\\e\\1\\4\\7\\8\\c\\1\\6\\9\\3e5e1478c169.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zsolt\\Documents\\OCCMS\\Solutions\\Demo 2.0\\src\\MastersCollab.Web\\wwwroot\\Default\\is-cache\\3\\e\\5\\e\\1\\4\\7\\8\\c\\1\\6\\9\\3e5e1478c169.meta",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\3\\e\\5\\e\\1\\4\\7\\8\\c\\1\\6\\9\\3e5e1478c169.meta"
+    },
+    {
+      "Id": "C:\\Users\\zsolt\\Documents\\OCCMS\\Solutions\\Demo 2.0\\src\\MastersCollab.Web\\wwwroot\\Default\\is-cache\\6\\3\\7\\f\\8\\9\\4\\9\\0\\f\\e\\2\\637f89490fe2.meta",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\6\\3\\7\\f\\8\\9\\4\\9\\0\\f\\e\\2\\637f89490fe2.meta"
+    },
+    {
+      "Id": "C:\\Users\\zsolt\\Documents\\OCCMS\\Solutions\\Demo 2.0\\src\\MastersCollab.Web\\wwwroot\\Default\\is-cache\\6\\3\\7\\f\\8\\9\\4\\9\\0\\f\\e\\2\\637f89490fe2.webp",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\6\\3\\7\\f\\8\\9\\4\\9\\0\\f\\e\\2\\637f89490fe2.webp"
+    },
+    {
+      "Id": "C:\\Users\\zsolt\\Documents\\OCCMS\\Solutions\\Demo 2.0\\src\\MastersCollab.Web\\wwwroot\\Default\\is-cache\\6\\9\\8\\3\\0\\0\\f\\b\\b\\a\\2\\5\\698300fbba25.jpg",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\6\\9\\8\\3\\0\\0\\f\\b\\b\\a\\2\\5\\698300fbba25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zsolt\\Documents\\OCCMS\\Solutions\\Demo 2.0\\src\\MastersCollab.Web\\wwwroot\\Default\\is-cache\\6\\9\\8\\3\\0\\0\\f\\b\\b\\a\\2\\5\\698300fbba25.meta",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\6\\9\\8\\3\\0\\0\\f\\b\\b\\a\\2\\5\\698300fbba25.meta"
+    },
+    {
+      "Id": "C:\\Users\\zsolt\\Documents\\OCCMS\\Solutions\\Demo 2.0\\src\\MastersCollab.Web\\wwwroot\\Default\\is-cache\\7\\4\\e\\6\\2\\d\\5\\4\\9\\5\\c\\b\\74e62d5495cb.jpg",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\7\\4\\e\\6\\2\\d\\5\\4\\9\\5\\c\\b\\74e62d5495cb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zsolt\\Documents\\OCCMS\\Solutions\\Demo 2.0\\src\\MastersCollab.Web\\wwwroot\\Default\\is-cache\\7\\4\\e\\6\\2\\d\\5\\4\\9\\5\\c\\b\\74e62d5495cb.meta",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\7\\4\\e\\6\\2\\d\\5\\4\\9\\5\\c\\b\\74e62d5495cb.meta"
+    },
+    {
+      "Id": "C:\\Users\\zsolt\\Documents\\OCCMS\\Solutions\\Demo 2.0\\src\\MastersCollab.Web\\wwwroot\\Default\\is-cache\\7\\8\\c\\8\\d\\5\\c\\e\\b\\7\\9\\4\\78c8d5ceb794.jpg",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\7\\8\\c\\8\\d\\5\\c\\e\\b\\7\\9\\4\\78c8d5ceb794.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zsolt\\Documents\\OCCMS\\Solutions\\Demo 2.0\\src\\MastersCollab.Web\\wwwroot\\Default\\is-cache\\7\\8\\c\\8\\d\\5\\c\\e\\b\\7\\9\\4\\78c8d5ceb794.meta",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\7\\8\\c\\8\\d\\5\\c\\e\\b\\7\\9\\4\\78c8d5ceb794.meta"
+    },
+    {
+      "Id": "C:\\Users\\zsolt\\Documents\\OCCMS\\Solutions\\Demo 2.0\\src\\MastersCollab.Web\\wwwroot\\Default\\is-cache\\8\\0\\f\\1\\0\\4\\9\\4\\0\\7\\a\\8\\80f1049407a8.jpg",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\8\\0\\f\\1\\0\\4\\9\\4\\0\\7\\a\\8\\80f1049407a8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zsolt\\Documents\\OCCMS\\Solutions\\Demo 2.0\\src\\MastersCollab.Web\\wwwroot\\Default\\is-cache\\8\\0\\f\\1\\0\\4\\9\\4\\0\\7\\a\\8\\80f1049407a8.meta",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\8\\0\\f\\1\\0\\4\\9\\4\\0\\7\\a\\8\\80f1049407a8.meta"
+    },
+    {
+      "Id": "C:\\Users\\zsolt\\Documents\\OCCMS\\Solutions\\Demo 2.0\\src\\MastersCollab.Web\\wwwroot\\Default\\is-cache\\8\\6\\7\\b\\4\\a\\3\\9\\2\\a\\5\\1\\867b4a392a51.jpg",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\8\\6\\7\\b\\4\\a\\3\\9\\2\\a\\5\\1\\867b4a392a51.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zsolt\\Documents\\OCCMS\\Solutions\\Demo 2.0\\src\\MastersCollab.Web\\wwwroot\\Default\\is-cache\\8\\6\\7\\b\\4\\a\\3\\9\\2\\a\\5\\1\\867b4a392a51.meta",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\8\\6\\7\\b\\4\\a\\3\\9\\2\\a\\5\\1\\867b4a392a51.meta"
+    },
+    {
+      "Id": "C:\\Users\\zsolt\\Documents\\OCCMS\\Solutions\\Demo 2.0\\src\\MastersCollab.Web\\wwwroot\\Default\\is-cache\\9\\a\\3\\e\\8\\2\\4\\9\\c\\5\\3\\b\\9a3e8249c53b.jpg",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\9\\a\\3\\e\\8\\2\\4\\9\\c\\5\\3\\b\\9a3e8249c53b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zsolt\\Documents\\OCCMS\\Solutions\\Demo 2.0\\src\\MastersCollab.Web\\wwwroot\\Default\\is-cache\\9\\a\\3\\e\\8\\2\\4\\9\\c\\5\\3\\b\\9a3e8249c53b.meta",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\9\\a\\3\\e\\8\\2\\4\\9\\c\\5\\3\\b\\9a3e8249c53b.meta"
+    },
+    {
+      "Id": "C:\\Users\\zsolt\\Documents\\OCCMS\\Solutions\\Demo 2.0\\src\\MastersCollab.Web\\wwwroot\\Default\\is-cache\\a\\4\\5\\d\\6\\e\\6\\6\\5\\9\\a\\d\\a45d6e6659ad.jpg",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\a\\4\\5\\d\\6\\e\\6\\6\\5\\9\\a\\d\\a45d6e6659ad.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zsolt\\Documents\\OCCMS\\Solutions\\Demo 2.0\\src\\MastersCollab.Web\\wwwroot\\Default\\is-cache\\a\\4\\5\\d\\6\\e\\6\\6\\5\\9\\a\\d\\a45d6e6659ad.meta",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\a\\4\\5\\d\\6\\e\\6\\6\\5\\9\\a\\d\\a45d6e6659ad.meta"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MastersCollab.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MastersCollab.Web.props",
+      "PackagePath": "build\\MastersCollab.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MastersCollab.Web.props",
+      "PackagePath": "buildMultiTargeting\\MastersCollab.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MastersCollab.Web.props",
+      "PackagePath": "buildTransitive\\MastersCollab.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

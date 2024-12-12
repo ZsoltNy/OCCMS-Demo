@@ -1,0 +1,985 @@
+2024-12-11 11:53:50.1602||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 11:53:50.2004||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 11:53:50.2004||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\MastersCollab.Web 
+2024-12-11 11:55:53.3339||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 11:55:53.3690||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 11:55:53.3723||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\MastersCollab.Web 
+2024-12-11 12:04:58.8445||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 12:04:58.8666||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 12:04:58.8683||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\MastersCollab.Web 
+2024-12-11 15:52:44.1707|Default|00-325970ee4033159c571860f5ba183021-0a6c89c70948c530-00||OrchardCore.Search.Lucene.Controllers.AdminController|ERROR|Error while executing query Lucene.Net.QueryParsers.Classic.ParseException: Cannot parse '*{Query}*': '*' or '?' not allowed as first character in WildcardQuery
+ ---> Lucene.Net.QueryParsers.Classic.ParseException: '*' or '?' not allowed as first character in WildcardQuery
+   at Lucene.Net.QueryParsers.Classic.QueryParserBase.GetWildcardQuery(String field, String termStr)
+   at Lucene.Net.QueryParsers.Classic.QueryParserBase.HandleBareTokenQuery(String qfield, Token term, Token fuzzySlop, Boolean prefix, Boolean wildcard, Boolean fuzzy, Boolean regexp)
+   at Lucene.Net.QueryParsers.Classic.QueryParser.Term(String field)
+   at Lucene.Net.QueryParsers.Classic.QueryParser.Clause(String field)
+   at Lucene.Net.QueryParsers.Classic.QueryParser.Query(String field)
+   at Lucene.Net.QueryParsers.Classic.QueryParser.TopLevelQuery(String field)
+   at Lucene.Net.QueryParsers.Classic.QueryParserBase.Parse(String query)
+   --- End of inner exception stack trace ---
+   at Lucene.Net.QueryParsers.Classic.QueryParserBase.Parse(String query)
+   at OrchardCore.Search.Lucene.QueryProviders.QueryStringQueryProvider.CreateQuery(ILuceneQueryService builder, LuceneQueryContext context, String type, JsonObject query)
+   at OrchardCore.Search.Lucene.LuceneQueryService.CreateQueryFragment(LuceneQueryContext context, JsonObject queryObj)
+   at OrchardCore.Search.Lucene.LuceneQueryService.SearchAsync(LuceneQueryContext context, JsonObject queryObj)
+   at OrchardCore.Search.Lucene.Controllers.AdminController.<>c__DisplayClass28_0.<<Query>b__0>d.MoveNext()    at Lucene.Net.QueryParsers.Classic.QueryParserBase.Parse(String query)
+   at OrchardCore.Search.Lucene.QueryProviders.QueryStringQueryProvider.CreateQuery(ILuceneQueryService builder, LuceneQueryContext context, String type, JsonObject query)
+   at OrchardCore.Search.Lucene.LuceneQueryService.CreateQueryFragment(LuceneQueryContext context, JsonObject queryObj)
+   at OrchardCore.Search.Lucene.LuceneQueryService.SearchAsync(LuceneQueryContext context, JsonObject queryObj)
+   at OrchardCore.Search.Lucene.Controllers.AdminController.<>c__DisplayClass28_0.<<Query>b__0>d.MoveNext()
+2024-12-11 15:53:19.0894|Default|00-6d06b17bf138e13c4c3bdcc59d87238d-f9dcc79c26f4d4c4-00||OrchardCore.Search.Lucene.Controllers.AdminController|ERROR|Error while executing query Lucene.Net.QueryParsers.Classic.ParseException: Cannot parse '{Query}*': Encountered " <RANGEIN_QUOTED> "} "" at line 1, column 6.
+Was expecting one of:
+    "TO" ...
+    <RANGEIN_GOOP> ...
+    "TO" ...
+    
+ ---> Lucene.Net.QueryParsers.Classic.ParseException: Encountered " <RANGEIN_QUOTED> "} "" at line 1, column 6.
+Was expecting one of:
+    "TO" ...
+    <RANGEIN_GOOP> ...
+    "TO" ...
+    
+   at Lucene.Net.QueryParsers.Classic.QueryParser.Jj_consume_token(Int32 kind)
+   at Lucene.Net.QueryParsers.Classic.QueryParser.Term(String field)
+   at Lucene.Net.QueryParsers.Classic.QueryParser.Clause(String field)
+   at Lucene.Net.QueryParsers.Classic.QueryParser.Query(String field)
+   at Lucene.Net.QueryParsers.Classic.QueryParser.TopLevelQuery(String field)
+   at Lucene.Net.QueryParsers.Classic.QueryParserBase.Parse(String query)
+   --- End of inner exception stack trace ---
+   at Lucene.Net.QueryParsers.Classic.QueryParserBase.Parse(String query)
+   at OrchardCore.Search.Lucene.QueryProviders.QueryStringQueryProvider.CreateQuery(ILuceneQueryService builder, LuceneQueryContext context, String type, JsonObject query)
+   at OrchardCore.Search.Lucene.LuceneQueryService.CreateQueryFragment(LuceneQueryContext context, JsonObject queryObj)
+   at OrchardCore.Search.Lucene.LuceneQueryService.SearchAsync(LuceneQueryContext context, JsonObject queryObj)
+   at OrchardCore.Search.Lucene.Controllers.AdminController.<>c__DisplayClass28_0.<<Query>b__0>d.MoveNext()    at Lucene.Net.QueryParsers.Classic.QueryParserBase.Parse(String query)
+   at OrchardCore.Search.Lucene.QueryProviders.QueryStringQueryProvider.CreateQuery(ILuceneQueryService builder, LuceneQueryContext context, String type, JsonObject query)
+   at OrchardCore.Search.Lucene.LuceneQueryService.CreateQueryFragment(LuceneQueryContext context, JsonObject queryObj)
+   at OrchardCore.Search.Lucene.LuceneQueryService.SearchAsync(LuceneQueryContext context, JsonObject queryObj)
+   at OrchardCore.Search.Lucene.Controllers.AdminController.<>c__DisplayClass28_0.<<Query>b__0>d.MoveNext()
+2024-12-11 15:53:49.8026|Default|00-3d232bd75262df16ff984d7ccdd4bb3a-1720edd4805626f1-00||OrchardCore.Search.Lucene.Controllers.AdminController|ERROR|Error while executing query Lucene.Net.QueryParsers.Classic.ParseException: Cannot parse '*{Query}*': '*' or '?' not allowed as first character in WildcardQuery
+ ---> Lucene.Net.QueryParsers.Classic.ParseException: '*' or '?' not allowed as first character in WildcardQuery
+   at Lucene.Net.QueryParsers.Classic.QueryParserBase.GetWildcardQuery(String field, String termStr)
+   at Lucene.Net.QueryParsers.Classic.QueryParserBase.HandleBareTokenQuery(String qfield, Token term, Token fuzzySlop, Boolean prefix, Boolean wildcard, Boolean fuzzy, Boolean regexp)
+   at Lucene.Net.QueryParsers.Classic.QueryParser.Term(String field)
+   at Lucene.Net.QueryParsers.Classic.QueryParser.Clause(String field)
+   at Lucene.Net.QueryParsers.Classic.QueryParser.Query(String field)
+   at Lucene.Net.QueryParsers.Classic.QueryParser.TopLevelQuery(String field)
+   at Lucene.Net.QueryParsers.Classic.QueryParserBase.Parse(String query)
+   --- End of inner exception stack trace ---
+   at Lucene.Net.QueryParsers.Classic.QueryParserBase.Parse(String query)
+   at OrchardCore.Search.Lucene.QueryProviders.QueryStringQueryProvider.CreateQuery(ILuceneQueryService builder, LuceneQueryContext context, String type, JsonObject query)
+   at OrchardCore.Search.Lucene.LuceneQueryService.CreateQueryFragment(LuceneQueryContext context, JsonObject queryObj)
+   at OrchardCore.Search.Lucene.LuceneQueryService.SearchAsync(LuceneQueryContext context, JsonObject queryObj)
+   at OrchardCore.Search.Lucene.Controllers.AdminController.<>c__DisplayClass28_0.<<Query>b__0>d.MoveNext()    at Lucene.Net.QueryParsers.Classic.QueryParserBase.Parse(String query)
+   at OrchardCore.Search.Lucene.QueryProviders.QueryStringQueryProvider.CreateQuery(ILuceneQueryService builder, LuceneQueryContext context, String type, JsonObject query)
+   at OrchardCore.Search.Lucene.LuceneQueryService.CreateQueryFragment(LuceneQueryContext context, JsonObject queryObj)
+   at OrchardCore.Search.Lucene.LuceneQueryService.SearchAsync(LuceneQueryContext context, JsonObject queryObj)
+   at OrchardCore.Search.Lucene.Controllers.AdminController.<>c__DisplayClass28_0.<<Query>b__0>d.MoveNext()
+2024-12-11 16:02:15.5360|Default|00-7e3936a91d3898e1b5f07f6677353bce-f9866c190f2684b7-00||OrchardCore.Search.Elasticsearch.Core.Services.ElasticConnectionOptionsConfigurations|ERROR|Elasticsearch is enabled but not active because the 'Url' is missing or empty in application configuration. 
+2024-12-11 16:02:15.5366|Default|00-7e3936a91d3898e1b5f07f6677353bce-f9866c190f2684b7-00||OrchardCore.Search.Elasticsearch.Core.Services.ElasticConnectionOptionsConfigurations|ERROR|Elasticsearch is enabled but not active because a port is missing in application configuration. 
+2024-12-11 16:04:14.9655|Default|00-15ba7447e7ee3339895583ffa42b67bb-019574cd61d5cf95-00|1|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|ERROR|An unhandled exception has occurred while executing the request. System.Text.Json.JsonException: 'Q' is an invalid start of a property name. Expected a '"'. Path: $ | LineNumber: 0 | BytePositionInLine: 1.
+ ---> System.Text.Json.JsonReaderException: 'Q' is an invalid start of a property name. Expected a '"'. LineNumber: 0 | BytePositionInLine: 1.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Serialization.JsonDictionaryConverter`3.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, TDictionary& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at OrchardCore.Search.Lucene.Controllers.AdminController.<>c__DisplayClass28_0.<<Query>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Search.Lucene.LuceneIndexManager.SearchAsync(String indexName, Func`2 searcher)
+   at OrchardCore.Search.Lucene.Controllers.AdminController.Query(AdminQueryViewModel model)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at SixLabors.ImageSharp.Web.Middleware.ImageSharpMiddleware.Invoke(HttpContext httpContext, Boolean retry)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Liquid.ScriptsMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Diagnostics.DiagnosticsStartupFilter.<>c__DisplayClass3_0.<<Configure>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at OrchardCore.ContentPreview.PreviewStartupFilter.<>c.<<Configure>b__0_1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Modules.ModularTenantRouterMiddleware.Invoke(HttpContext httpContext)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.<>c__DisplayClass4_0.<<Invoke>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)    at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at OrchardCore.Search.Lucene.Controllers.AdminController.<>c__DisplayClass28_0.<<Query>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Search.Lucene.LuceneIndexManager.SearchAsync(String indexName, Func`2 searcher)
+   at OrchardCore.Search.Lucene.Controllers.AdminController.Query(AdminQueryViewModel model)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at SixLabors.ImageSharp.Web.Middleware.ImageSharpMiddleware.Invoke(HttpContext httpContext, Boolean retry)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Liquid.ScriptsMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Diagnostics.DiagnosticsStartupFilter.<>c__DisplayClass3_0.<<Configure>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at OrchardCore.ContentPreview.PreviewStartupFilter.<>c.<<Configure>b__0_1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Modules.ModularTenantRouterMiddleware.Invoke(HttpContext httpContext)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.<>c__DisplayClass4_0.<<Invoke>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-11 16:04:26.6075|Default|00-ad6bad3cb34e59b3dab92a3a70b9c57a-5bd0878e8e78cbdc-00|1|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|ERROR|An unhandled exception has occurred while executing the request. System.Text.Json.JsonException: 'C' is an invalid start of a property name. Expected a '"'. Path: $ | LineNumber: 0 | BytePositionInLine: 1.
+ ---> System.Text.Json.JsonReaderException: 'C' is an invalid start of a property name. Expected a '"'. LineNumber: 0 | BytePositionInLine: 1.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Serialization.JsonDictionaryConverter`3.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, TDictionary& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at OrchardCore.Search.Lucene.Controllers.AdminController.<>c__DisplayClass28_0.<<Query>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Search.Lucene.LuceneIndexManager.SearchAsync(String indexName, Func`2 searcher)
+   at OrchardCore.Search.Lucene.Controllers.AdminController.Query(AdminQueryViewModel model)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at SixLabors.ImageSharp.Web.Middleware.ImageSharpMiddleware.Invoke(HttpContext httpContext, Boolean retry)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Liquid.ScriptsMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Diagnostics.DiagnosticsStartupFilter.<>c__DisplayClass3_0.<<Configure>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at OrchardCore.ContentPreview.PreviewStartupFilter.<>c.<<Configure>b__0_1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Modules.ModularTenantRouterMiddleware.Invoke(HttpContext httpContext)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.<>c__DisplayClass4_0.<<Invoke>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)    at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at OrchardCore.Search.Lucene.Controllers.AdminController.<>c__DisplayClass28_0.<<Query>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Search.Lucene.LuceneIndexManager.SearchAsync(String indexName, Func`2 searcher)
+   at OrchardCore.Search.Lucene.Controllers.AdminController.Query(AdminQueryViewModel model)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at SixLabors.ImageSharp.Web.Middleware.ImageSharpMiddleware.Invoke(HttpContext httpContext, Boolean retry)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Liquid.ScriptsMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Diagnostics.DiagnosticsStartupFilter.<>c__DisplayClass3_0.<<Configure>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at OrchardCore.ContentPreview.PreviewStartupFilter.<>c.<<Configure>b__0_1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Modules.ModularTenantRouterMiddleware.Invoke(HttpContext httpContext)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.<>c__DisplayClass4_0.<<Invoke>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-11 16:04:51.7350|Default|00-ddbce64abcd5b7dd7868f06ca5bfe332-f8d0a9fc6bf1d0ed-00|1|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|ERROR|An unhandled exception has occurred while executing the request. System.Text.Json.JsonException: '}' is invalid after a property name. Expected a ':'. Path: $ | LineNumber: 0 | BytePositionInLine: 4.
+ ---> System.Text.Json.JsonReaderException: '}' is invalid after a property name. Expected a ':'. LineNumber: 0 | BytePositionInLine: 4.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumePropertyName()
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Serialization.JsonDictionaryConverter`3.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, TDictionary& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at OrchardCore.Search.Lucene.Controllers.AdminController.<>c__DisplayClass28_0.<<Query>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Search.Lucene.LuceneIndexManager.SearchAsync(String indexName, Func`2 searcher)
+   at OrchardCore.Search.Lucene.Controllers.AdminController.Query(AdminQueryViewModel model)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at SixLabors.ImageSharp.Web.Middleware.ImageSharpMiddleware.Invoke(HttpContext httpContext, Boolean retry)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Liquid.ScriptsMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Diagnostics.DiagnosticsStartupFilter.<>c__DisplayClass3_0.<<Configure>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at OrchardCore.ContentPreview.PreviewStartupFilter.<>c.<<Configure>b__0_1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Modules.ModularTenantRouterMiddleware.Invoke(HttpContext httpContext)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.<>c__DisplayClass4_0.<<Invoke>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)    at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at OrchardCore.Search.Lucene.Controllers.AdminController.<>c__DisplayClass28_0.<<Query>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Search.Lucene.LuceneIndexManager.SearchAsync(String indexName, Func`2 searcher)
+   at OrchardCore.Search.Lucene.Controllers.AdminController.Query(AdminQueryViewModel model)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at SixLabors.ImageSharp.Web.Middleware.ImageSharpMiddleware.Invoke(HttpContext httpContext, Boolean retry)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Liquid.ScriptsMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Diagnostics.DiagnosticsStartupFilter.<>c__DisplayClass3_0.<<Configure>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at OrchardCore.ContentPreview.PreviewStartupFilter.<>c.<<Configure>b__0_1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Modules.ModularTenantRouterMiddleware.Invoke(HttpContext httpContext)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.<>c__DisplayClass4_0.<<Invoke>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-11 16:23:07.8814||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 16:23:07.9153||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 16:23:07.9153||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\MastersCollab.Web 
+2024-12-11 16:29:29.0976|Default|00-b682d50ec3902f21d22624f2e30490e3-649cb87aff40b1e8-00||OrchardCore.Search.Lucene.Services.LuceneSearchService|WARN|Lucene: Couldn't execute search. Lucene has not been configured yet. 
+2024-12-11 16:29:33.5228|Default|00-219b9959b0a66725bff036a900f75fdb-e637fb90abbe7dde-00||OrchardCore.Search.Lucene.Services.LuceneSearchService|WARN|Lucene: Couldn't execute search. Lucene has not been configured yet. 
+2024-12-11 16:30:11.2306|Default|00-102644af1d68e8851879658c4fe7338e-0941fbbc3f33623e-00||OrchardCore.Search.Lucene.Services.LuceneSearchService|WARN|Lucene: Couldn't execute search. Lucene has not been configured yet. 
+2024-12-11 16:30:12.3794|Default|00-ddc5ec5b59dab71c405a6d4816c23c62-f2991dc5dc80a55b-00||OrchardCore.Search.Lucene.Services.LuceneSearchService|WARN|Lucene: Couldn't execute search. Lucene has not been configured yet. 
+2024-12-11 16:30:13.0129|Default|00-b4b05e19def3ddc1d35ae3f0afe13dd7-c3001898a52b53fb-00||OrchardCore.Search.Lucene.Services.LuceneSearchService|WARN|Lucene: Couldn't execute search. Lucene has not been configured yet. 
+2024-12-11 16:30:15.9164|Default|00-88b219103aa43d7065b1c8f40bab64d1-792c8e86a33d1980-00||OrchardCore.Search.Lucene.Services.LuceneSearchService|WARN|Lucene: Couldn't execute search. Lucene has not been configured yet. 
+2024-12-11 16:30:16.5727|Default|00-7e986eea87a051ac9dadf8f19a24b7a7-e820d917dd6eb86b-00||OrchardCore.Search.Lucene.Services.LuceneSearchService|WARN|Lucene: Couldn't execute search. Lucene has not been configured yet. 
+2024-12-11 16:30:17.1562|Default|00-51b6a9a43760b5f14ee7df775587aea1-2fb86e4bf76dbdeb-00||OrchardCore.Search.Lucene.Services.LuceneSearchService|WARN|Lucene: Couldn't execute search. Lucene has not been configured yet. 
+2024-12-11 16:30:19.4724|Default|00-aa55478b21eb501ab3ab21b33da8ca88-e4be37f9a9804de2-00||OrchardCore.Search.Lucene.Services.LuceneSearchService|WARN|Lucene: Couldn't execute search. Lucene has not been configured yet. 
+2024-12-11 16:30:24.2121|Default|00-8a424016883847d6bde31294af16df94-493a39a62381ccac-00||OrchardCore.Search.Lucene.Services.LuceneSearchService|WARN|Lucene: Couldn't execute search. Lucene has not been configured yet. 
+2024-12-11 16:30:25.5336|Default|00-f37d769693e830975fdd3eff2d635868-86b95d684a8ba7a6-00||OrchardCore.Search.Lucene.Services.LuceneSearchService|WARN|Lucene: Couldn't execute search. Lucene has not been configured yet. 
+2024-12-11 17:16:59.3597||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 17:16:59.3803||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 17:16:59.3803||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\MastersCollab.Web 
+2024-12-11 17:51:26.8048|Default|00-c4bb8703b25e1037447819762df99244-3cefd2de3dd78d57-00|1|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|ERROR|An unhandled exception has occurred while executing the request. System.FormatException: Input string was not in a correct format. Failure to parse near offset 29. Expected an ASCII digit.
+   at System.Text.ValueStringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ReadOnlySpan`1 args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ReadOnlySpan`1 args)
+   at System.String.Format(IFormatProvider provider, String format, Object[] args)
+   at OrchardCore.DisplayManagement.Notify.NotifyEntry.ToHtmlString(HtmlEncoder htmlEncoder)
+   at OrchardCore.DisplayManagement.Notify.NotifyEntryComparer.GetHashCode(NotifyEntry obj)
+   at System.Collections.Generic.HashSet`1.AddIfNotPresent(T value, Int32& location)
+   at System.Collections.Generic.HashSet`1.UnionWith(IEnumerable`1 other)
+   at System.Collections.Generic.HashSet`1..ctor(IEnumerable`1 collection, IEqualityComparer`1 comparer)
+   at OrchardCore.DisplayManagement.Notify.NotifyFilter.OnHandlerExecuted(FilterContext filterContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at SixLabors.ImageSharp.Web.Middleware.ImageSharpMiddleware.Invoke(HttpContext httpContext, Boolean retry)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Liquid.ScriptsMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Diagnostics.DiagnosticsStartupFilter.<>c__DisplayClass3_0.<<Configure>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at OrchardCore.ContentPreview.PreviewStartupFilter.<>c.<<Configure>b__0_1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Modules.ModularTenantRouterMiddleware.Invoke(HttpContext httpContext)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.<>c__DisplayClass4_0.<<Invoke>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)    at System.Text.ValueStringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ReadOnlySpan`1 args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ReadOnlySpan`1 args)
+   at System.String.Format(IFormatProvider provider, String format, Object[] args)
+   at OrchardCore.DisplayManagement.Notify.NotifyEntry.ToHtmlString(HtmlEncoder htmlEncoder)
+   at OrchardCore.DisplayManagement.Notify.NotifyEntryComparer.GetHashCode(NotifyEntry obj)
+   at System.Collections.Generic.HashSet`1.AddIfNotPresent(T value, Int32& location)
+   at System.Collections.Generic.HashSet`1.UnionWith(IEnumerable`1 other)
+   at System.Collections.Generic.HashSet`1..ctor(IEnumerable`1 collection, IEqualityComparer`1 comparer)
+   at OrchardCore.DisplayManagement.Notify.NotifyFilter.OnHandlerExecuted(FilterContext filterContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at SixLabors.ImageSharp.Web.Middleware.ImageSharpMiddleware.Invoke(HttpContext httpContext, Boolean retry)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Liquid.ScriptsMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Diagnostics.DiagnosticsStartupFilter.<>c__DisplayClass3_0.<<Configure>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at OrchardCore.ContentPreview.PreviewStartupFilter.<>c.<<Configure>b__0_1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Modules.ModularTenantRouterMiddleware.Invoke(HttpContext httpContext)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.<>c__DisplayClass4_0.<<Invoke>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-11 17:51:35.1133|Default|00-29da06e7fab8ac8f14ef9aa4996ba29d-6b163c7f19e0118d-00|1|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|ERROR|An unhandled exception has occurred while executing the request. System.FormatException: Input string was not in a correct format. Failure to parse near offset 29. Expected an ASCII digit.
+   at System.Text.ValueStringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ReadOnlySpan`1 args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ReadOnlySpan`1 args)
+   at System.String.Format(IFormatProvider provider, String format, Object[] args)
+   at OrchardCore.DisplayManagement.Notify.NotifyEntry.ToHtmlString(HtmlEncoder htmlEncoder)
+   at OrchardCore.DisplayManagement.Notify.NotifyEntryComparer.GetHashCode(NotifyEntry obj)
+   at System.Collections.Generic.HashSet`1.AddIfNotPresent(T value, Int32& location)
+   at System.Collections.Generic.HashSet`1.UnionWith(IEnumerable`1 other)
+   at System.Collections.Generic.HashSet`1..ctor(IEnumerable`1 collection, IEqualityComparer`1 comparer)
+   at OrchardCore.DisplayManagement.Notify.NotifyFilter.OnHandlerExecuted(FilterContext filterContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at SixLabors.ImageSharp.Web.Middleware.ImageSharpMiddleware.Invoke(HttpContext httpContext, Boolean retry)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Liquid.ScriptsMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Diagnostics.DiagnosticsStartupFilter.<>c__DisplayClass3_0.<<Configure>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at OrchardCore.ContentPreview.PreviewStartupFilter.<>c.<<Configure>b__0_1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Modules.ModularTenantRouterMiddleware.Invoke(HttpContext httpContext)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.<>c__DisplayClass4_0.<<Invoke>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)    at System.Text.ValueStringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ReadOnlySpan`1 args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ReadOnlySpan`1 args)
+   at System.String.Format(IFormatProvider provider, String format, Object[] args)
+   at OrchardCore.DisplayManagement.Notify.NotifyEntry.ToHtmlString(HtmlEncoder htmlEncoder)
+   at OrchardCore.DisplayManagement.Notify.NotifyEntryComparer.GetHashCode(NotifyEntry obj)
+   at System.Collections.Generic.HashSet`1.AddIfNotPresent(T value, Int32& location)
+   at System.Collections.Generic.HashSet`1.UnionWith(IEnumerable`1 other)
+   at System.Collections.Generic.HashSet`1..ctor(IEnumerable`1 collection, IEqualityComparer`1 comparer)
+   at OrchardCore.DisplayManagement.Notify.NotifyFilter.OnHandlerExecuted(FilterContext filterContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at SixLabors.ImageSharp.Web.Middleware.ImageSharpMiddleware.Invoke(HttpContext httpContext, Boolean retry)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Liquid.ScriptsMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Diagnostics.DiagnosticsStartupFilter.<>c__DisplayClass3_0.<<Configure>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at OrchardCore.ContentPreview.PreviewStartupFilter.<>c.<<Configure>b__0_1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Modules.ModularTenantRouterMiddleware.Invoke(HttpContext httpContext)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.<>c__DisplayClass4_0.<<Invoke>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-11 17:51:45.7371|Default|00-64c9ef83bbacc4ebfa4d80cd1863b7f4-6384e78d3559e088-00|1|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|ERROR|An unhandled exception has occurred while executing the request. System.FormatException: Input string was not in a correct format. Failure to parse near offset 29. Expected an ASCII digit.
+   at System.Text.ValueStringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ReadOnlySpan`1 args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ReadOnlySpan`1 args)
+   at System.String.Format(IFormatProvider provider, String format, Object[] args)
+   at OrchardCore.DisplayManagement.Notify.NotifyEntry.ToHtmlString(HtmlEncoder htmlEncoder)
+   at OrchardCore.DisplayManagement.Notify.NotifyEntryComparer.GetHashCode(NotifyEntry obj)
+   at System.Collections.Generic.HashSet`1.AddIfNotPresent(T value, Int32& location)
+   at System.Collections.Generic.HashSet`1.UnionWith(IEnumerable`1 other)
+   at System.Collections.Generic.HashSet`1..ctor(IEnumerable`1 collection, IEqualityComparer`1 comparer)
+   at OrchardCore.DisplayManagement.Notify.NotifyFilter.OnHandlerExecuted(FilterContext filterContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at SixLabors.ImageSharp.Web.Middleware.ImageSharpMiddleware.Invoke(HttpContext httpContext, Boolean retry)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Liquid.ScriptsMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Diagnostics.DiagnosticsStartupFilter.<>c__DisplayClass3_0.<<Configure>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at OrchardCore.ContentPreview.PreviewStartupFilter.<>c.<<Configure>b__0_1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Modules.ModularTenantRouterMiddleware.Invoke(HttpContext httpContext)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.<>c__DisplayClass4_0.<<Invoke>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)    at System.Text.ValueStringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ReadOnlySpan`1 args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ReadOnlySpan`1 args)
+   at System.String.Format(IFormatProvider provider, String format, Object[] args)
+   at OrchardCore.DisplayManagement.Notify.NotifyEntry.ToHtmlString(HtmlEncoder htmlEncoder)
+   at OrchardCore.DisplayManagement.Notify.NotifyEntryComparer.GetHashCode(NotifyEntry obj)
+   at System.Collections.Generic.HashSet`1.AddIfNotPresent(T value, Int32& location)
+   at System.Collections.Generic.HashSet`1.UnionWith(IEnumerable`1 other)
+   at System.Collections.Generic.HashSet`1..ctor(IEnumerable`1 collection, IEqualityComparer`1 comparer)
+   at OrchardCore.DisplayManagement.Notify.NotifyFilter.OnHandlerExecuted(FilterContext filterContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at SixLabors.ImageSharp.Web.Middleware.ImageSharpMiddleware.Invoke(HttpContext httpContext, Boolean retry)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Liquid.ScriptsMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Diagnostics.DiagnosticsStartupFilter.<>c__DisplayClass3_0.<<Configure>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at OrchardCore.ContentPreview.PreviewStartupFilter.<>c.<<Configure>b__0_1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Modules.ModularTenantRouterMiddleware.Invoke(HttpContext httpContext)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.<>c__DisplayClass4_0.<<Invoke>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-11 17:52:27.2550||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 17:52:27.2776||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 17:52:27.2776||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\MastersCollab.Web 
+2024-12-11 17:52:46.7635|Default|00-410af0d57ec2ffc151344c9f5505fcaf-6eb9c613445c0462-00|1|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|ERROR|An unhandled exception has occurred while executing the request. System.FormatException: Input string was not in a correct format. Failure to parse near offset 29. Expected an ASCII digit.
+   at System.Text.ValueStringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ReadOnlySpan`1 args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ReadOnlySpan`1 args)
+   at Microsoft.AspNetCore.Html.HtmlFormattableString.WriteTo(TextWriter writer, HtmlEncoder encoder)
+   at OrchardCore.DisplayManagement.Notify.NotifyEntry.ToHtmlString(HtmlEncoder htmlEncoder)
+   at OrchardCore.DisplayManagement.Notify.NotifyEntryComparer.GetHashCode(NotifyEntry obj)
+   at System.Collections.Generic.HashSet`1.AddIfNotPresent(T value, Int32& location)
+   at System.Collections.Generic.HashSet`1.UnionWith(IEnumerable`1 other)
+   at System.Collections.Generic.HashSet`1..ctor(IEnumerable`1 collection, IEqualityComparer`1 comparer)
+   at System.Linq.Enumerable.DistinctIterator`1.ToArray()
+   at OrchardCore.DisplayManagement.Notify.NotifyFilter.OnHandlerExecuted(FilterContext filterContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at SixLabors.ImageSharp.Web.Middleware.ImageSharpMiddleware.Invoke(HttpContext httpContext, Boolean retry)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Liquid.ScriptsMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Diagnostics.DiagnosticsStartupFilter.<>c__DisplayClass3_0.<<Configure>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at OrchardCore.ContentPreview.PreviewStartupFilter.<>c.<<Configure>b__0_1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Modules.ModularTenantRouterMiddleware.Invoke(HttpContext httpContext)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.<>c__DisplayClass4_0.<<Invoke>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)    at System.Text.ValueStringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ReadOnlySpan`1 args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ReadOnlySpan`1 args)
+   at Microsoft.AspNetCore.Html.HtmlFormattableString.WriteTo(TextWriter writer, HtmlEncoder encoder)
+   at OrchardCore.DisplayManagement.Notify.NotifyEntry.ToHtmlString(HtmlEncoder htmlEncoder)
+   at OrchardCore.DisplayManagement.Notify.NotifyEntryComparer.GetHashCode(NotifyEntry obj)
+   at System.Collections.Generic.HashSet`1.AddIfNotPresent(T value, Int32& location)
+   at System.Collections.Generic.HashSet`1.UnionWith(IEnumerable`1 other)
+   at System.Collections.Generic.HashSet`1..ctor(IEnumerable`1 collection, IEqualityComparer`1 comparer)
+   at System.Linq.Enumerable.DistinctIterator`1.ToArray()
+   at OrchardCore.DisplayManagement.Notify.NotifyFilter.OnHandlerExecuted(FilterContext filterContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at SixLabors.ImageSharp.Web.Middleware.ImageSharpMiddleware.Invoke(HttpContext httpContext, Boolean retry)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Liquid.ScriptsMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Diagnostics.DiagnosticsStartupFilter.<>c__DisplayClass3_0.<<Configure>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at OrchardCore.ContentPreview.PreviewStartupFilter.<>c.<<Configure>b__0_1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Modules.ModularTenantRouterMiddleware.Invoke(HttpContext httpContext)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.<>c__DisplayClass4_0.<<Invoke>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-11 18:13:43.4926||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 18:13:43.5166||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 18:13:43.5166||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo\src\MastersCollab.Web 
+2024-12-11 18:24:19.5321||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 18:24:19.5529||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 18:24:19.5529||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 18:28:56.0817||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 18:28:56.1075||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 18:28:56.1075||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 18:30:25.2389|Default|00-753f9b81566bef2dbf58575744ae7d68-829404174bc88bce-00|1|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|ERROR|An unhandled exception has occurred while executing the request. System.Exception: Failed to parse liquid file /Areas/MastersCollab.Theme/Views/Layout.liquid: End of tag '}}' was expected at (7:27)
+Source:
+    <title>{{ Model.Title ?? "Master's Collaboration Portal" }}</title>
+   at OrchardCore.DisplayManagement.Liquid.LiquidViewTemplate.<>c__DisplayClass8_0.<<ParseAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.DisplayManagement.Liquid.LiquidViewTemplate.<>c__DisplayClass8_0.<<ParseAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.GetOrCreateAsync[TItem](IMemoryCache cache, Object key, Func`2 factory)
+   at OrchardCore.DisplayManagement.Liquid.LiquidViewTemplate.RenderAsync(RazorPage`1 page)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.RenderPartialCoreAsync(String partialViewName, Object model, ViewDataDictionary viewData, TextWriter writer)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.PartialAsync(String partialViewName, Object model, ViewDataDictionary viewData)
+   at OrchardCore.DisplayManagement.Implementation.DefaultHtmlDisplay.<ProcessAsync>g__Awaited|13_0(Task`1 task)
+   at OrchardCore.DisplayManagement.Implementation.DefaultHtmlDisplay.ExecuteAsync(DisplayContext context)
+   at OrchardCore.DisplayManagement.Implementation.DefaultHtmlDisplay.ExecuteAsync(DisplayContext context)
+   at OrchardCore.DisplayManagement.Theming.ThemeLayout.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultFilters>g__Awaited|28_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at SixLabors.ImageSharp.Web.Middleware.ImageSharpMiddleware.Invoke(HttpContext httpContext, Boolean retry)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Liquid.ScriptsMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Diagnostics.DiagnosticsStartupFilter.<>c__DisplayClass3_0.<<Configure>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at OrchardCore.ContentPreview.PreviewStartupFilter.<>c.<<Configure>b__0_1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Modules.ModularTenantRouterMiddleware.Invoke(HttpContext httpContext)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.<>c__DisplayClass4_0.<<Invoke>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)    at OrchardCore.DisplayManagement.Liquid.LiquidViewTemplate.<>c__DisplayClass8_0.<<ParseAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.DisplayManagement.Liquid.LiquidViewTemplate.<>c__DisplayClass8_0.<<ParseAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.GetOrCreateAsync[TItem](IMemoryCache cache, Object key, Func`2 factory)
+   at OrchardCore.DisplayManagement.Liquid.LiquidViewTemplate.RenderAsync(RazorPage`1 page)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.RenderPartialCoreAsync(String partialViewName, Object model, ViewDataDictionary viewData, TextWriter writer)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.PartialAsync(String partialViewName, Object model, ViewDataDictionary viewData)
+   at OrchardCore.DisplayManagement.Implementation.DefaultHtmlDisplay.<ProcessAsync>g__Awaited|13_0(Task`1 task)
+   at OrchardCore.DisplayManagement.Implementation.DefaultHtmlDisplay.ExecuteAsync(DisplayContext context)
+   at OrchardCore.DisplayManagement.Implementation.DefaultHtmlDisplay.ExecuteAsync(DisplayContext context)
+   at OrchardCore.DisplayManagement.Theming.ThemeLayout.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultFilters>g__Awaited|28_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at SixLabors.ImageSharp.Web.Middleware.ImageSharpMiddleware.Invoke(HttpContext httpContext, Boolean retry)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Liquid.ScriptsMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Diagnostics.DiagnosticsStartupFilter.<>c__DisplayClass3_0.<<Configure>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at OrchardCore.ContentPreview.PreviewStartupFilter.<>c.<<Configure>b__0_1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Modules.ModularTenantRouterMiddleware.Invoke(HttpContext httpContext)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.<>c__DisplayClass4_0.<<Invoke>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-11 18:32:07.5867||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 18:32:07.6083||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 18:32:07.6083||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 18:34:50.7478||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 18:34:50.7688||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 18:34:50.7688||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 18:37:30.7377||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 18:37:30.7589||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 18:37:30.7589||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 18:38:07.5557||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 18:38:07.5774||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 18:38:07.5774||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 20:59:45.0743||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 20:59:45.0978||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 20:59:45.0992||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 21:05:32.3268||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 21:05:32.3468||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 21:05:32.3468||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 21:06:00.7611||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 21:06:00.7834||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 21:06:00.7834||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 21:07:44.8089||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 21:07:44.8313||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 21:07:44.8313||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 21:07:55.8603||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 21:07:55.8818||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 21:07:55.8818||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 21:09:27.7026||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 21:09:27.7237||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 21:09:27.7237||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 21:11:01.5510||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 21:11:01.5725||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 21:11:01.5725||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 21:13:29.0113||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 21:13:29.0325||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 21:13:29.0325||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 21:14:41.4015||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 21:14:41.4223||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 21:14:41.4223||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 21:14:56.9503||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 21:14:56.9855||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 21:14:56.9855||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 21:15:42.2865||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 21:15:42.3127||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 21:15:42.3127||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 21:16:58.5146||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 21:16:58.5402||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 21:16:58.5402||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 21:18:21.3450||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 21:18:21.3682||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 21:18:21.3682||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 21:19:41.7283||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 21:19:41.7506||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 21:19:41.7506||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 21:20:07.7607||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 21:20:07.7839||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 21:20:07.7839||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 21:22:23.8040||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 21:22:23.8264||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 21:22:23.8264||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 21:23:28.3019||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 21:23:28.3233||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 21:23:28.3233||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 21:25:45.9601||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 21:25:45.9885||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 21:25:45.9907||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 21:27:25.5386||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 21:27:25.5599||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 21:27:25.5599||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 21:34:29.2530||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 21:34:29.2766||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 21:34:29.2766||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 21:39:15.9080||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 21:39:15.9342||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 21:39:15.9342||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 21:42:25.9268||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 21:42:25.9481||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 21:42:25.9481||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 21:44:35.5546||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 21:44:35.5753||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 21:44:35.5753||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 21:48:03.2303||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 21:48:03.2533||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 21:48:03.2533||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 21:50:48.3864||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 21:50:48.4083||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 21:50:48.4083||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 21:51:50.7957||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 21:51:50.8178||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 21:51:50.8178||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 21:54:20.7596||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 21:54:20.7809||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 21:54:20.7809||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 21:57:46.1084||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 21:57:46.1297||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 21:57:46.1297||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 22:03:45.3895||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 22:03:45.4110||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 22:03:45.4123||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 22:06:14.2233||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 22:06:14.2460||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 22:06:14.2460||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 22:07:19.6104||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 22:07:19.6316||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 22:07:19.6316||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 22:12:05.6255||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 22:12:05.6476||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 22:12:05.6476||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 22:16:19.5904||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 22:16:19.6109||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 22:16:19.6109||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 22:20:39.3111||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 22:20:39.3320||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 22:20:39.3320||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 22:21:32.0991||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 22:21:32.1200||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 22:21:32.1200||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 22:23:31.8660||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 22:23:31.8886||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 22:23:31.8886||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 22:23:50.0496||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 22:23:50.0704||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 22:23:50.0704||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 22:25:10.6935||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 22:25:10.7154||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 22:25:10.7154||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 22:26:51.7008||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 22:26:51.7247||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 22:26:51.7247||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 22:29:24.1515||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 22:29:24.1745||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 22:29:24.1745||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 22:29:46.9397||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 22:29:46.9611||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 22:29:46.9611||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 22:38:20.1485||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 22:38:20.1698||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 22:38:20.1698||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 23:01:44.9167||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 23:01:44.9405||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 23:01:44.9405||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 23:02:36.2227||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 23:02:36.2447||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 23:02:36.2447||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 23:16:12.8431||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-12-11 23:16:12.8648||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-12-11 23:16:12.8648||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\zsolt\Documents\OCCMS\Solutions\Demo 2.0\src\MastersCollab.Web 
+2024-12-11 23:43:09.3364|Default|00-402bf2ab75143ae4853fa1ad2a4f4ed9-39032ef4a3536ad0-00|3|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|WARN|Unable to configure Browser Link script injection on the response.  
+2024-12-11 23:43:09.3364|Default|00-402bf2ab75143ae4853fa1ad2a4f4ed9-39032ef4a3536ad0-00|3|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|WARN|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. 
